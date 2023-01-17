@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+#product {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    margin: 5px 30px;
+    background-color: none;
+}
+
+.links {
+    padding-right: 200px;
+}
+
+.links a {
+    color: inherit;
+    color: rgb(26, 24, 24);
+    text-decoration: none;
+    margin: 30px 15PX;
+    font-size: 20px;
+
+}
+
+.carte {
+    width: 350px;
+    height: 610px;
+    background-color: #846ca7;
+    box-shadow: 2px 10px 12px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 20px 10px;
+}
+
+.modele {
+    height: 250px;
+
+}
+
+
+.details p {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.details h1 {
+    color: #eb2294;
+    text-align: center;
+
+}
+
+.tittle {
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+.links a:hover {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.shop {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.shop button {
+    margin: 0px 35px;
+}
+
+i {
+    color: rgb(0, 0, 0);
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    font-size: 26px;
+
+}
+
+.carte:hover {
+    background: #7272b7;
+    transform-style: preserve-3d;
+    transform: scale(1.02);
+    transform: all ease 0.3s;
+}
+
+.carte:hover .tittle {
+    color: snow;
+    transition: all ease 0.3s;
+}
+
+form {
+    text-align: center;
+    margin: 10vh 0;
+}
+
+form input {
+    height: 45px;
+    width: 400px;
+    margin: 20px 0;
+}
+
+form button {
+
+    border: none;
+    background: #846ca7;
+    color: rgb(255, 255, 255);
+    border: 2px solid#846ca7;
+    padding: 12px 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 15px;
+    transition: all 1s ease-in;
+}
+
+form button:hover {
+    background: #7272b7;
+    transform-style: preserve-3d;
+    transform: scale(1.03);
+    transform: all ease 0.1s;
+}
